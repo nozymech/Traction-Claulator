@@ -1,6 +1,5 @@
 let input = document.getElementById("input")
 let demo = document.getElementById("demo")
-let button = document.getElementById("button")
 
 //體重除於7
 let bodyweight7=(weight) => {
@@ -27,4 +26,4 @@ let calculator=() => {
 }
 
 //click 呼叫程式 calculator()
-button.addEventListener("click" ,()=>{calculator();});
+input.addEventListener("input" ,()=>{calculator();});
