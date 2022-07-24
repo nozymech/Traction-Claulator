@@ -29,7 +29,7 @@ let calculator=() => {
  }else if (weight>0 && weight <150){
   result.innerHTML = `頸椎牽引: ${bodyweight7(weight)}公斤~${bodyweight4(weight)}公斤  <br/>腰椎牽引: ${bodyweight4(weight)}公斤~${bodyweight2(weight)}公斤` ;
  }else if (weight == ""){
-  result.innerHTML = "" ;
+  result.innerHTML = "這裡將顯示計算結果！" ;
  }
 }
 
