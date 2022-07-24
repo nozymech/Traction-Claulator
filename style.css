@@ -35,21 +35,5 @@ font-family: 'Noto Sans TC',sans-serif;
   padding-top: 20px;
 }
 
-#weight {
-  padding: 5px;
-  font-size: 16px;
-  border-width: 5px;
-  padding-left: 20px;
-  border-color: #CCCCCC;
-  background-color: #FFFFFF;
-  color: #000000;
-  border-style: hidden;
-  border-radius: 2px;
-  margin: 0px 5px;
-  box-shadow: 0px 0px 5px rgba(66,66,66,.75);
-}
 
-#weight:focus {
-  outline:none;
-}
 
