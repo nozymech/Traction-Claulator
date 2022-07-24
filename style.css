@@ -7,6 +7,11 @@ font-family: 'Noto Sans TC',sans-serif;
 .container{
   padding-top:20px;
   text-align:center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
 }
 
 #button{
@@ -26,9 +31,6 @@ font-family: 'Noto Sans TC',sans-serif;
 
 #result{
   font-size:x-large;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
   text-align: left;
   padding-top: 20px;
 }
@@ -50,3 +52,4 @@ font-family: 'Noto Sans TC',sans-serif;
 #weight:focus {
   outline:none;
 }
+
